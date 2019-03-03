@@ -1,0 +1,6 @@
+rm main3
+g++ -o main3 -std=c++0x -pedantic -Wall small.cpp \
+`sdl2-config --cflags --libs`
+#-lEGL -lGLESv2
+
+

@@ -1,0 +1,7 @@
+rm mainwin
+echo mainwin
+g++ -o mainwin -std=c++0x -pedantic -Wall small_win.cpp \
+-L/usr/local/lib -I/usr/include/SDL2 -lSDL2 -lpthread \
+-lEGL -lGLESv2
+
+
